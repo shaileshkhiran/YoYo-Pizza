@@ -1,0 +1,90 @@
+{
+  "intents": [
+    {
+      "tag": "pizza_start",
+      "patterns": [
+        "I want to order a pizza",
+        "I want to order",
+        "I want a pizza",
+        "pizza",
+        "Is anyone there?",
+        "I'm hungry"
+      ],
+      "responses": [
+        "Hi! what type of pizza do you want ?\n 1.Hawaiian\n 2.Pepperoni\n 3.BBQ\n 4.Veggie"
+      ]
+    },
+     {
+      "tag": "pizza_type",
+      "patterns": [
+        "veggie",
+        "bbq",
+        "pepperoni",
+        "hawaiian"],
+
+      "responses": [
+        "Please mention the size of your pizza\n 1.Regular\n 2.Medium\n 3.large"
+      ]
+    },
+     {
+      "tag": "pizza_size",
+      "patterns": ["I want medium", "I want the size to be large", "regular","give me regular","regular","medium","large"],
+      "responses": [
+        "Which crust do you prefer?\n 1.Hand tossed \n 2.Thin\n 3.Cheese"
+      ]
+    },
+    {
+      "tag": "pizza_crust",
+      "patterns": ["I want Cheese", "i want hand tossed", "I want thin","cheese","hand tossed","thin"],
+      "responses": [
+        "Thank you. Now we will get your particulars. Type OK to continue."
+      ]
+    },
+    {
+      "tag": "user_particulars",
+      "patterns": ["ok"],
+      "responses": [
+        "\nEnter your\n*Name\n*PhoneNo.\n*Postalcode"
+      ]
+    },
+
+     {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?","payments","payment",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 30-45 mins"
+      ]
+    }
+  ]
+}
