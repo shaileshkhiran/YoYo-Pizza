@@ -2,7 +2,7 @@
 
 How to run
 
-1. Through terminal type python train.py - this is run the train data.
+1. Through terminal, type python train.py - this runs the train data.
 2. After it has run successfully , type python chat.py to run the chatbot.
 3. Here the user must enter “I want a pizza” or just “pizza” , the bot replies with "Hi! what type of pizza do you want ?1.Hawaiian 2.Pepperoni 3.BBQ 4.Veggie".
 If the user types anything other than the patterns , the bot replies “ I do not understand…”
